@@ -1,5 +1,6 @@
 @startuml
-Bob -> Alice : hello
-Alice -> Bob
-Bob --> Alice : Eee
+participant "Влад" as Bob
+alt Блок 1
+!includeurl https://raw.githubusercontent.com/Atticon/myml/main/block_1.puml
+end
 @enduml
